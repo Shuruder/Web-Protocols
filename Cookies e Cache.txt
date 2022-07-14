@@ -1,0 +1,49 @@
+Protocolo HTTP não guarda informações do CLiente
+    por questões de performance
+    mas pesa na banda por conta do cabeçalho
+
+Mas e se preciso identificar os clientes?
+    Usamos os Cookies
+        Track por meio de pequenos pedaços de dados persistentes
+            (RFC 6265)
+
+    Header File = Cookie 
+
+comunicação
+
+Primeiro acesso HTTP
+Acesso no BD 
+Existe o ID?
+    Seta o ID no cookie do client 
+        ID, hostname, etc
+
+
+Cookies Persistentes e de Sessão
+
+Sessão
+    Deletados apos o fim da sessão
+
+Persistentes
+    Podem durar anos
+
+Podem ser usados para 
+manter logins, 
+informação de website,
+carrinhos de compras.
+
+Problemas?
+    Hacking
+        Eles estão tão seguros quanto seu computador
+        Podendo ser usados para atques de phising
+    LGPD & Cookies 
+        Podem ser invasivos
+        Esses agora solicitam seu concentimento
+    Cookies e Privacidade
+
+
+Cache
+    Web cache ou proxy server
+        Mensagens pré armazenadas
+    Reduz tempo de resposta e trafego
+
+
