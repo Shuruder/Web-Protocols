@@ -1,0 +1,55 @@
+HTTP Request 1.1
+
+Estrutura
+
+Get: /somedir/page.html/HTTP/1.1
+Host: www.someschool.edu
+Connection: close (não persistente - apos envio encerra)
+User-agent: Mozilla/5.0
+Accept-language: fr
+
+Pra que serve?
+
+Enviar e receber informações
+Get compõe 90% das requisições web
+
+Ex Post
+
+POST: /HTTP/1.1
+Host: localhost:8080
+Connection: close
+User-agent: Mozilla/5.0 (linux;...) Firefox 51.0
+Accept: text/html, application/xhtml+xml, ..., */*; q=0.8
+Accept-language: en-US, em=0.5
+Accept-Encoding: gzip, deflate
+Content-Type multipart/form-data; boundary=12656974
+Content-Length: 345
+
+(more data)
+
+--- 
+
+Mais metodos
+
+Get solicita um recurso
+Head    Get sem corpo de resposta
+Post    Submete uma entidade a um recurso
+Put     substituição de recursos pelos dados da requisição
+Delete  remoção de um recurso 
+Trace   chamada de loop-back (diagnostico da rede)
+Option  opções de comunicação
+Connection  tunelamento identificado pelo recurso 
+Patch   modificação parcial
+
+Metodos seguros
+Get
+HEAD
+OPTION 
+
+
+HTTP Response
+200 OK
+301 Moved Permanently
+400 Bad Request
+404 Not Found 
+505 HTTP Version Not Supported
