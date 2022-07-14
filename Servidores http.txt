@@ -1,0 +1,18 @@
+Quais servidores?
+
+Apache é o mais utilizado no mercado
+NGINX
+XAMPP (servidores teste)
+
+Apache 
+    Datado de 1995
+    Contribuiu com o WWW 
+    Opensource
+    Comunidade: Apache Software
+
+    Modular, dinâmico e carrefável
+    Multiple Request Processing
+    Altamente escalável (+10k conexões simultaneas)
+    Lida com arquivos estáticos, index, auto-indexing e negociação de conteudo
+
+Conceitos basicos já conhecidos e que são contidos em documentações
