@@ -1,0 +1,22 @@
+Mudanças no HTTP
+
+Existe agora uma conexão persistente que envia as requisições nessa conexão
+    possivel criar varias requisições
+    Multiplexação de canais
+        (varios GET)
+
+    O Cliente suporta?
+        Unica conexão persistente
+        Compressão de Header
+        Server push
+        HTTPS por padrão - TLS
+        Negociação no handshake da utilização do Protocolo
+
+    Contras?
+
+    push
+        Configuração incorreta pode ser um Problema
+
+    Mixe 1.1 e 2.0
+        Lentidao
+        Load Balancer 1.1
